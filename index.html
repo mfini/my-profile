@@ -1,1 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Wendy Profile</title>
+<link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+
+	<style >
+	.fa-facebook {
+		background:#3B5998;
+		color: white;
+	}
+	.fa-whatsapp {
+		background:#4dc247;
+	}
+	.fa-google-plus {
+		background:#dd4b39;
+		color: white;
+	}
+	.fa-github {
+        background-color:#000000;
+        color:white;
+    }
+    .fa-mail {
+      background:#f44336;
+      color: white;
+  } 	 
+	img {
+    border-radius: 50%;
+}
+     body{
+       background-color: pink;
+       text-align: center;
+       color: blue;
+       font-style: italic; 
+       }
+img{
+	height: 300px;
+	width: 300px;
+
+	</style>
+
+</head>
+<body>
+<h1>Wendy Mfinizana</h1>
+<h1><section><center>
+<img  class="mySlides" src="/home/quirky30/Pictures/gt.jpg"
+style="width:30%">
+<img  class="mySlides" src="/home/quirky30/Pictures/gt_n.jpg"
+<center></section></h1>
+<p>I'm a learning about coding and skill at Quicky 30 </p>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+ 
+<script>
+var slideIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none"; 
+    }
+    slideIndex++;
+    if (slideIndex > x.length) {slideIndex = 1} 
+    x[slideIndex-1].style.display = "block"; 
+    setTimeout(carousel, 2000); 
+}
+</script>
+<h2>About Myself</h2>
+<p>I'm a person who is always lovely and happy and I love talking
+and i am an hardwork and I am friendly person to everyone</p>
+<style>
+* {box-sizing: border-box}
+
+.container {
+  width: 100%;
+  background-color: #ddd;
+}
+
+.skills {
+  text-align: right;
+  padding-right: 20px;
+  line-height: 40px;
+  color: white;
+}
+
+.html {width: 65%; background-color: #4CAF50;}
+.css {width: 35%; background-color: #2196F3;}
+.js {width: 15%; background-color: #f44336;}
+.php {width: 10%; background-color: #808080;}
+
+</style>
+</head>
+<body>
+<h3>My Skills<h3>
+
+<p>HTML</p>
+<div class="container">
+  <div class="skills html">65%</div>
+</div>
+
+<p>CSS</p>
+<div class="container">
+  <div class="skills css">35%</div>
+</div>
+
+<p>JavaScript</p>
+<div class="container">
+  <div class="skills js">15%</div>
+</div>
+
+<p>PHP</p>
+<div class="container">
+  <div class="skills php">10%</div>
+</div>
+
+<br><br>
+
+<!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Add font awesome icons -->
+<a href="https://www.facebook.com/dineo.wendy.39" class="fa fa-facebook"></a>
+<a href="/home/quirky30/Pictures/3.jpg" class="fa fa-whatsapp"></a>
+<a href="https://plus.google.com/114728074269659471027" class="fa fa-google-plus"></a>
+<a href="https://github.com/mfini" class="fa fa-github"></a>
+</html>
+</body>
+
+
 
